@@ -29,4 +29,6 @@ Result
 ---
 From `project_video.mp4`, Here is result!
 
-<center>![result](./img/output_video.gif)</center>
+<div align="center">
+  <img src="./img/output_video.gif" alt="output_video">  
+</div>  
