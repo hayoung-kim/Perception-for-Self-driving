@@ -29,4 +29,4 @@ Result
 ---
 From `project_video.mp4`, Here is result!
 
-![result](./img/output_video.gif)
+<center>![result](./img/output_video.gif)</center>
