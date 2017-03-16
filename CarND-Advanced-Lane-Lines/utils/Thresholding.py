@@ -5,7 +5,6 @@ class ImageColorThres():
     def __init__(self, img, vertices):
         self.img = self.region_of_interest(img, vertices)
         self.H, self.L, self.S = self.RGB2HLS()
-        print('color thresholding class2')
 
     def RGB2HLS(self):
         hls = cv2.cvtColor(self.img, cv2.COLOR_RGB2HLS) # decompose

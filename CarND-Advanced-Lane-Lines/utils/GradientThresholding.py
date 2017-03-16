@@ -3,7 +3,7 @@ import cv2
 
 def gaussian_blur(gray, kernel_size):
     """Applies a Gaussian Noise kernel"""
-    return cv2.GaussianBlur(img, (kernel_size, kernel_size), 0)
+    return cv2.GaussianBlur(gray, (kernel_size, kernel_size), 0)
 
 def abs_sobel_thresh(gray, orient='x', sobel_kernel=3, thresh=(0, 255)):
     # Apply x or y gradient with the OpenCV Sobel() function
