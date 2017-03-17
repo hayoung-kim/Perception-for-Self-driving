@@ -8,7 +8,7 @@ In this project, the goal is to write a software pipeline to identify the lane b
 
 Pipeline with one example image
 ---
-You can check the detail of advanced lane line detection pipeline on [`pipeline.ipynb`](./pipeline.ipynb). 
+You can find all the detail of advanced lane line detection pipeline on [`pipeline.ipynb`](./pipeline.ipynb).
 
 The algorithm consists of:
 * Camera Calibration
@@ -22,7 +22,7 @@ The algorithm consists of:
 
 Usage
 ---
-Follow [`generate_video.ipynb`](./generate_video.ipynb)!
+To make video, follow [`generate_video.ipynb`](./generate_video.ipynb)
 
 
 Result
@@ -32,3 +32,18 @@ From `project_video.mp4`, Here is result!
 <div align="center">
   <img src="./img/output_video.gif" alt="output_video">  
 </div>  
+
+The full high resolution video can be found in here:  [`output_video.mp4`](./output_video.mp4)
+
+Discussion
+---
+After this udacity project, I thought there are so many things to be solved. 
+
+### Roboustness
+If you look at the pipeline, the algorithm seems to work well. But a lot of parameters need to be tuned over time. and I felt to use the only single algorithm for lane line detection is **very dangerous**. To use this kind of algorithm in real vehicle, many backup algorithms should be prepared so that roboustness can be secured.
+
+### Real Time Problem
+It took about 3 minutes to process a 50-second(1261 frames) video using this framework. This means when the vehicle get where the line is, it could be **too late** to control with this line information. I'm concerned that this framwork can be used in a real vehicle.
+
+### Additional Information
+This framework uses only front camera image. However, If movement of the vehicle is predictable through steering angle information, it might be helpful to improve this algorithm. By making lane line model, the tracking algorithm (such as Kalman filter or Particle filter) helps the algorithm to be more robust and accurate.  
