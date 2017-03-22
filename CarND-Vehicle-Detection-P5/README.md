@@ -23,7 +23,6 @@ To train classifier, place images like:
 
     # for non-vehicle dataset:
     ./classifier_images/non-vehicles/zzz/www.png 
-    
 ```
 
 then follow [`Training_Classifier.ipynb`]('./Training_Classifier.ipynb').
