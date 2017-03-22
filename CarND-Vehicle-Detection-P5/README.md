@@ -62,7 +62,9 @@ Discussion
 ### Accuracy and Robustness
 The accuracy of the classifier that distinguishes between vehicle and non-vehicle is about **98%**. However, false possitives appear many times. I could reduce these false positives by using the **previous frame's heatmap**, but I could not remove them completely as shown in the image below. This false positive will be fatal when this detection algorithm is used for control the vehicle because The algorithm recognizes the empty road as obstacle.
 
-<div style="text-align:center"><img src ="./imgs/false_positive.png" /></div>
+<p align="center">
+  <img src="./imgs/false_positive.png">
+</p>
 
 ### Additional Readings
 This project used a classic method of detecting vehicles in images. but state-of-the-art vehicle detection methods are proposed these days. In the future, I will apply the following techniques to this video.
