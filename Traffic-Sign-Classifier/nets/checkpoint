@@ -1,0 +1,5 @@
+model_checkpoint_path: "traffic_sign_lenet-15"
+all_model_checkpoint_paths: "traffic_sign_lenet-0"
+all_model_checkpoint_paths: "traffic_sign_lenet-5"
+all_model_checkpoint_paths: "traffic_sign_lenet-10"
+all_model_checkpoint_paths: "traffic_sign_lenet-15"
