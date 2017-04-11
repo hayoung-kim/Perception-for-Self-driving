@@ -30,7 +30,8 @@ Summary
 
 <p align="center">
   <img src="./Traffic-Sign-Classifier/images/convnet_fig.png">
+  <img src="./Traffic-Sign-Classifier/images/softmax_probabilities_2.png">
+  <img src="./Traffic-Sign-Classifier/images/softmax_probabilities_1.png">
 </p>
-<p align="center">
-  <img src="./Traffic-Sign-Classifier/images/confusion_matrix.png">
-</p>
+
+
