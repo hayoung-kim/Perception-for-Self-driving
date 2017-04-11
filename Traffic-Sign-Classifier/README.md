@@ -66,3 +66,8 @@ Result
   <img src="./images/softmax_probabilities_2.png">
   <img src="./images/softmax_probabilities_3.png">
 </p>
+
+### Confusion Matrix
+<p align="center">
+  <img src="./images/confusion_matrix.png">
+</p>
