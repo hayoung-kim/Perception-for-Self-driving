@@ -43,9 +43,13 @@ LeNet with `Batch Normalization` before each activation layer.
 
 Result
 ---
-* Test Accuracy = 92.3%
+Test Accuracy = 88.0%
 
-`epoch - loss graph`
+<p align="center">
+  <img src="./images/result_acc.png">
+</p>
 
-* 
+<p align="center">
+  <img src="./images/result_loss.png">
+</p>
 
