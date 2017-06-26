@@ -1,4 +1,4 @@
-# Perception Algorithms for Self-driving Car
+﻿# Perception Algorithms for Self-driving Car
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 Perception related projects of Udacity's Self-driving Car Nanodegree Program. 
@@ -6,6 +6,7 @@ Perception related projects of Udacity's Self-driving Car Nanodegree Program.
 * [Vehicle Detection](./Vehicle-Detection/)
 * [Traffic Sign Classification](./Traffic-Sign-Classifier/)
 
+asdfghjk
 
 Summary
 ---
