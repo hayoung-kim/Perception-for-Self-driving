@@ -1,7 +1,7 @@
-## LeNet Implementation for Traffic Sign Classification - Tensorflow
+﻿## LeNet Implementation for Traffic Sign Classification - Tensorflow
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-In this project, 독일에서 사용되는 43종류의 Traffic sign을 구분해 내는 것이 목표입니다. 이를 위해 [LeNet](http://yann.lecun.com/exdb/lenet/)의 Output layer의 수를 43개로 바꾼 뒤, Traffic Sign data를 이용하여 네트워크를 Retrain 시켰습니다.
+The object of the project is to distinguish 43 different types of traffic sign used is Germany. Number of Output layers in [LeNet](http://yann.lecun.com/exdb/lenet/) has changed to 43. Then, the network has retrained using Traffic sign data
 
 Dataset
 ---
@@ -9,7 +9,8 @@ Dataset
   <img src="./images/data_example.png">
 </p>
 
-[German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)의 이미지들을 Training 및 Test에 이용합니다. Training/Test를 위한 Pickled dataset은 아래에서 받을 수 있습니다.
+Images of [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) have used for training and test. Pickled datasets are available below.
+
 
 ### Vanilla Pickled dataset 
 * [Training data](https://www.dropbox.com/s/8ldwwtgp8n4owuv/train.p?dl=0) (102MB)
